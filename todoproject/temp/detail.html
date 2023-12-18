@@ -1,0 +1,19 @@
+ {% extends 'base.html' %}
+{% block content %}
+
+
+<div class="col-md-6">
+
+    <h3 >Task to be completed</h3>
+
+             <div class="shadow card">
+                 <div class="card-body">
+      <h5 class="card_title">{{task1.name}}</h5>
+    <p ><b>{{task1.priority}}</b></p>
+                     <p ><b>{{task1.date}}</b></p>
+    <a href="{% url 'delete' task1.id %} " class="btn btn-success">DONE</a>
+                      <a href="{% url 'update' task1.id %} " class="btn btn-primary">UPDATE</a>
+  </div>
+</div>
+ </div>
+ {% endblock %}

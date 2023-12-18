@@ -1,0 +1,29 @@
+.banner{
+ position: relative;
+  width: 100%;
+  height:100px; /* Adjust the height as needed */
+  background-color:#33f564; /* Set the background color */
+  color: black; /* Set the text color */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.banner-text{
+
+
+  /* Set text color */
+  color: #fff;
+
+  /* Set padding to create space around the text */
+  padding: 20px;
+
+  /* Set text alignment to center */
+  text-align: center;
+
+  /* Set font size and family */
+  font-size: 24px;
+  font-family: 'Arial', sans-serif;
+
+  /* Add text shadow for better visibility on a colored background */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
